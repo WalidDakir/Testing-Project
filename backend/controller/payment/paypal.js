@@ -1,11 +1,11 @@
-const paypal = require('paypal-rest-sdk');
+const paypal = require("paypal-rest-sdk");
 
-// Cấu hình PayPal SDK
 paypal.configure({
-    'mode': process.env.PAYPAL_MODE, // 'sandbox' hoặc 'live'
-    'client_id': process.env.PAYPAL_CLIENT_ID,
-    'client_secret': process.env.PAYPAL_CLIENT_SECRET,
+  mode: process.env.PAYPAL_MODE || "sandbox",  // Set to "sandbox" or "live"
+  client_id: process.env.PAYPAL_CLIENT_ID,
+  client_secret: process.env.PAYPAL_CLIENT_SECRET
 });
+
 
 // Tạo đơn hàng PayPal
 const createPaypalOrderController = (req, res) => {

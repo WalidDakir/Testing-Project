@@ -22,7 +22,7 @@ A Full-Stack Web Application built using the **MERN** stack: MongoDB, Express.js
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/vietnguyen51/MERN-Project.git
+git clone https://github.com/WalidDakir/Testing-Project
 ```
 
 2. Navigate to backend and frontend folders and install the dependencies:
@@ -34,10 +34,7 @@ npm install
 ```
 
 3. Setup environment variables:
-   - In the `backend/` folder, create a `.env` file and add your configuration:
-     ```bash
-     MONGODB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/yourdb
-     TOKEN_SECRET_KEY=your_secret_key
+
      FRONTEND_URL=http://localhost:3000
      ```
 
@@ -60,7 +57,36 @@ npm start
 - **POST** `/api/signin`: Log in an existing user.
 - **GET** `/api/user-details`: Get the authenticated user's information.
 - **GET** `/api/user-logout`: Log out the user.
+-------------------------------------------------------------
+# 🚀 MERN-Project Test Automation  
 
-## License
+## 📌 GitHub Project Selection  
+This repository contains **automated test scripts** for the MERN-Project, a web application designed for **user authentication, profile management, and API interactions**.  
 
-This project is licensed under the MIT License.
+### **Why We Chose MERN-Project?**  
+✅ It is a **full-stack project**, incorporating both frontend and backend functionalities.  
+✅ It includes **authentication, user management, and session handling**, making it ideal for comprehensive testing.  
+✅ Well-structured, allowing easy automation with **TypeScript + Selenium WebDriver**.  
+
+---
+
+## 🔹 **How to Set Up & Run Tests**  
+
+### **1️⃣ Prerequisites**  
+Before running the tests, ensure the following dependencies are installed:  
+- **Node.js** & npm  
+- **Chrome WebDriver** (for browser automation)  
+- **Selenium WebDriver**  
+
+### **2️⃣ Install Dependencies**  
+Navigate to the project root and install the required packages:  
+```bash
+npm install selenium-webdriver typescript ts-node -D
+
+3️⃣ Run Automated Tests
+Execute each test script using ts-node:
+
+npx ts-node tests/register.test.mjs  # User Registration Test
+npx ts-node tests/login.test.mjs     # Login Test (Valid & Invalid Cases)
+npx ts-node tests/session.test.mjs   # Session Persistence Test
+

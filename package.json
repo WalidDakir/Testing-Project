@@ -1,6 +1,20 @@
 {
+  "type": "module",
   "dependencies": {
     "framer-motion": "^11.11.8",
     "paypal-rest-sdk": "^1.8.1"
+  },
+  "devDependencies": {
+    "@types/selenium-webdriver": "^4.1.28",
+    "selenium-webdriver": "^4.32.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES6",
+    "esModuleInterop": true,
+    "skipLibCheck": true
   }
 }
