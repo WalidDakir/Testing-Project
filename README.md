@@ -37,7 +37,6 @@ npm install
 
      FRONTEND_URL=http://localhost:3000
      ```
-
 4. Run the backend and frontend:
 ```bash
 cd backend
@@ -95,10 +94,3 @@ Execute each test script using ts-node:
 npx ts-node tests/register.test.mjs  # User Registration Test
 npx ts-node tests/login.test.mjs     # Login Test (Valid & Invalid Cases)
 npx ts-node tests/session.test.mjs   # Session Persistence Test
-
-
-
-
-
-
-
