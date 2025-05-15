@@ -90,3 +90,7 @@ npx ts-node tests/register.test.mjs  # User Registration Test
 npx ts-node tests/login.test.mjs     # Login Test (Valid & Invalid Cases)
 npx ts-node tests/session.test.mjs   # Session Persistence Test
 
+-------------------------------------------------------------
+ Test Plan & Bug Reporting
+📌 Test Plan File: Contains detailed scenarios, expected results, and steps to validate each functionality.
+📌 Bug Reporting File: Documents discovered bugs, their impact, steps to reproduce, and resolution status. 🔹 Both files can be found in the testing folder.
