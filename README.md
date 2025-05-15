@@ -67,8 +67,13 @@ This repository contains **automated test scripts** for the MERN-Project, a web 
 ✅ It is a **full-stack project**, incorporating both frontend and backend functionalities.  
 ✅ It includes **authentication, user management, and session handling**, making it ideal for comprehensive testing.  
 ✅ Well-structured, allowing easy automation with **TypeScript + Selenium WebDriver**.  
+-------------------------------------------------------------
 
----
+📌 Test Plan & Bug Reporting
+*Test Plan File: Contains detailed scenarios, expected results, and steps to validate each functionality.
+*Bug Reporting File: Documents discovered bugs, their impact, steps to reproduce, and resolution status. 
+🔹 Both files can be found in the testing folder.
+-------------------------------------------------------------
 
 ## 🔹 **How to Set Up & Run Tests**  
 
@@ -77,6 +82,7 @@ Before running the tests, ensure the following dependencies are installed:
 - **Node.js** & npm  
 - **Chrome WebDriver** (for browser automation)  
 - **Selenium WebDriver**  
+
 
 ### **2️⃣ Install Dependencies**  
 Navigate to the project root and install the required packages:  
@@ -90,7 +96,9 @@ npx ts-node tests/register.test.mjs  # User Registration Test
 npx ts-node tests/login.test.mjs     # Login Test (Valid & Invalid Cases)
 npx ts-node tests/session.test.mjs   # Session Persistence Test
 
--------------------------------------------------------------
- Test Plan & Bug Reporting
-📌 Test Plan File: Contains detailed scenarios, expected results, and steps to validate each functionality.
-📌 Bug Reporting File: Documents discovered bugs, their impact, steps to reproduce, and resolution status. 🔹 Both files can be found in the testing folder.
+
+
+
+
+
+
